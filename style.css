@@ -7,6 +7,9 @@
 
 body{
     background-color: #f2f2f2;
+    background-image: url(./img/sueter-masculino-de-trico-listrado-anka-preto-fiero\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
@@ -56,3 +59,66 @@ nav a{
     background-color: #f2f2f2;
 }
 
+.hero{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.hero-text{
+    max-width: 400px;
+}
+
+.hero-text h2{
+    font-size: 3rem;
+    letter-spacing: 6px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.hero-text button{
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #b8b8c5;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 40px;
+
+    padding: 60px 5%;
+}
+
+.footer-box{
+    max-width: 300px;
+}
+
+.footer-box h3{
+    margin-bottom: 20px;
+}
+
+.footer-box p{
+    margin-bottom: 10px;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
