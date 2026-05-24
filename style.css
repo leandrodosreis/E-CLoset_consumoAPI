@@ -116,9 +116,7 @@ nav a{
     transition: 0.3s;
 }
 
-/* aguardadno cards */
-
-
+/* Detalhando cards */
 .products{
     width: 100%;
     display: grid;
@@ -164,6 +162,8 @@ nav a{
     display: none;
 }
 
+/* Fim cards */
+
 footer{
     width: 100%;
     background-color: #b8b8c5;
@@ -193,67 +193,50 @@ footer{
     font-size: 1.5rem;
 }
 
+/* Pagina 2 */
 .detalhes{
-
     width: 100%;
-
     padding: 80px 5%;
 }
 
 .detalhes-container{
-
     display: flex;
     gap: 50px;
-
     align-items: center;
     flex-wrap: wrap;
-
     background-color: #d1d1dc;
-
     padding: 40px;
-
     border-radius: 10px;
 }
 
 .detalhes-container img{
-
     width: 300px;
     background-color: white;
-
     padding: 20px;
     border-radius: 10px;
 }
 
 .info{
-
     flex: 1;
     min-width: 300px;
 }
 
 .info h2{
-
     margin-bottom: 20px;
 }
 
 .info p{
-
     margin-bottom: 15px;
 }
 
 .info button{
-
     width: 200px;
     height: 50px;
-
     border: none;
-
     cursor: pointer;
-
     background-color: #4b4b67;
     color: white;
-
     font-size: 1.1rem;
-
     margin-bottom: 30px;
 }
 
