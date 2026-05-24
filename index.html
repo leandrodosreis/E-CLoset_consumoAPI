@@ -5,18 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script href="main.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
         <h1 class="logo">E-closet</h1>
-
-        <nav>
-            <a href="#">Feminino</a>
-            <a href="#">Masculino</a>
-            <a href="#">Acessórios</a>
-        </nav>
-    
         <div class="search-container">
             <input type="text" placeholder="Buscar...">
             <button>Buscar</button>
@@ -36,36 +29,55 @@
         <button>Categoria</button>
         </div>
 
+        <div class="hero-image">
+
+            <img
+                src="./img/sueter-masculino-de-trico-listrado-anka-preto-fiero 1.png"
+                alt="">
+
+        </div>
+
     </section>
 
-     <div class="products">
+    <nav class="categories">
 
-      <div class="card">
-        
-      </div>
+        <a
+            href="#"
+            onclick="carregarCategoria(`women's clothing`)">
 
-      <div class="card">
-        
-      </div>
+            Feminino
 
-      <div class="card">
-        
-      </div>
+        </a>
 
-      <div class="card">
-       
-      </div>
+        <a
+            href="#"
+            onclick="carregarCategoria(`men's clothing`)">
 
-      <div class="card">
-    
-      </div>
+            Masculino
 
-      <div class="card">
+        </a>
 
-      </div>
+        <a
+            href="#"
+            onclick="carregarCategoria(`jewelery`)">
 
-    </div>
-  </section>
+            Acessórios
+
+        </a>
+
+    </nav>
+
+    <section
+        class="products"
+        id="products">
+
+    </section>
+
+    <section
+        class="detalhes hidden"
+        id="detalhes">
+
+    </section>
 
     <footer>
 
